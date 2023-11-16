@@ -65,7 +65,7 @@ services:
       - ./huasen-nginx/html:/usr/share/nginx/html
     # 端口暴露
     ports:
-      - 80:80
+      - 6780:80
       # - target: 80
       #   published: 6780
       #   protocol: tcp
