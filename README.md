@@ -2,17 +2,17 @@
 
 > 码云仓库地址：https://gitee.com/HuaSenJioJio/huasenjio-compose
 >
-> Github 仓库地址：https://github.com
+> Github 仓库地址：https://github.com/huasenjio/huasenjio-compose
 
 
 
 ## 📌 关于
 
-花森系列网站增添新作品，（huasenjio-compose）[官方仓库](https://github.com)，基于 vue.js、node.js、docker-compose、redis、mongodb、jenkins 组合构建的容器应用。如果我的项目给您带来帮助，请点一个 star（🌟）！您的鼓励和支持，对我真的很重要！
+花森系列网站增添新作品，（huasenjio-compose）[官方仓库](https://github.com/huasenjio/huasenjio-compose)，基于 vue.js、node.js、docker-compose、redis、mongodb、jenkins 组合构建的容器应用。如果我的项目给您带来帮助，请点一个 star（🌟）！您的鼓励和支持，对我真的很重要！
 
 ## 💪 开源列表
 
-✅ 花森门户容器版（[huasenjio-compose](https://github.com)）
+✅ 花森门户容器版（[huasenjio-compose](https://github.com/huasenjio/huasenjio-compose)）
 
 ✅ 花森门户静态版（[huasen-protal](https://github.com/huasenjio/huasen-portal)）
 
@@ -379,7 +379,7 @@ docker-compose --version
 （1）通过 git 拉取源码
 
 ```bash
-git clone https://github.com.git
+git clone https://github.com/huasenjio/huasenjio-compose.git
 ```
 
 （2）进入 huasenjio-compose 目录
