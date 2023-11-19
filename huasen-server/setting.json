@@ -1,14 +1,14 @@
 {
   "site": {
     "brandName": "智言AI-首页",
-    "brandUrl": "",
-    "redirectUrl": "http://huasen.cc/",
-    "guidePageName": "花森小窝",
-    "guidePageUrl": "http://huasen.cc/",
+    "brandUrl": "huasen-store/img/1700401900713.png",
+    "redirectUrl": "https://ingress.chatgtptenplus.com/",
+    "guidePageName": "智言AI",
+    "guidePageUrl": "https://daohang.chatgtptenplus.com/portal/",
     "footerHtml": "<a href=\"https://beian.miit.gov.cn/\">版权所有@智言AI</a>",
     "jwt": "",
     "jwtLiveTime": 604800,
-    "serviceQRCodeUrl": ""
+    "serviceQRCodeUrl": "huasen-store/img/1700401882410.png"
   },
   "theme": {
     "pure": [
@@ -28,7 +28,7 @@
       },
       {
         "headerFontColor": "#000000",
-        "background": "https://s2.loli.net/2023/03/31/W9n7RoFvhtlpg6U.jpg"
+        "background": "huasen-store/img/1700401952580.jpg"
       }
     ],
     "default": {
@@ -39,8 +39,8 @@
   "mail": {
     "host": "smtp.qq.com",
     "port": 465,
-    "user": "932397243@qq.com",
-    "mtp": ""
+    "user": "419644560@qq.com",
+    "mtp": "pmshalyjiwvacaff"
   },
   "article": {
     "changelog": "648c79d1cdf0f0076b134525",
