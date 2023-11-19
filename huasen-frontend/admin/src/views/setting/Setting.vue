@@ -319,7 +319,7 @@ export default {
           },
           {
             headerFontColor: '#000000',
-            background: 'https://s2.loli.net/2023/03/31/W9n7RoFvhtlpg6U.jpg',
+            background: 'https://daohang.chatgtptenplus.com/admin/huasen-store/img/1700401952580.jpg',
           },
         ],
         default: {

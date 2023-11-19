@@ -28,11 +28,15 @@
       },
       {
         "headerFontColor": "#000000",
+<<<<<<< HEAD
         "background": "huasen-store/img/1700401952580.jpg"
+=======
+        "background": "https://daohang.chatgtptenplus.com/admin/huasen-store/img/1700401952580.jpg"
+>>>>>>> 385b132bb68c3457b8f7e8f93e30c58cbe6a1cdf
       }
     ],
     "default": {
-      "bg": "https://s2.loli.net/2023/03/31/W9n7RoFvhtlpg6U.jpg",
+      "bg": "https://daohang.chatgtptenplus.com/admin/huasen-store/img/1700401952580.jpg",
       "color": "#000000"
     }
   },
