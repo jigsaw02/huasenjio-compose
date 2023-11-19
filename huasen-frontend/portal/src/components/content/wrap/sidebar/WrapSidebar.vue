@@ -11,9 +11,9 @@
       <li v-if="showWrapSidebarSocket" class="animate__animated animate__fadeIn shadow">
         <i class="iconfont icon-md-rocket" @click="goTop"></i>
       </li>
-      <li class="shadow">
-        <i class="iconfont icon-github" @click="goStorage"> </i>
-      </li>
+<!--      <li class="shadow">-->
+<!--        <i class="iconfont icon-github" @click="goStorage"> </i>-->
+<!--      </li>-->
       <li class="shadow">
         <i class="iconfont icon-weixin" @mouseenter="showConnectPannel" @mouseleave="closeConnectPannel"> </i>
       </li>
