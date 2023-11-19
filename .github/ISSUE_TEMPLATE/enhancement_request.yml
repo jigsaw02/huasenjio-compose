@@ -29,10 +29,10 @@ body:
     attributes:
       label: 提交前搜索 issues
       description: >
-        请确保先搜索 [issues](https://github.com/huasenjio/huasenjio-compose/issues) ，查看是否已经报告了相同的问题。
+        请确保先搜索 [issues](https://github.com/issues) ，查看是否已经报告了相同的问题。
       options:
         - label: >
-            我已经搜索了[issues](https://github.com/huasenjio/huasenjio-compose/issues)，没有发现类似的问题。
+            我已经搜索了[issues](https://github.com/issues)，没有发现类似的问题。
           required: true
 
   - type: textarea
