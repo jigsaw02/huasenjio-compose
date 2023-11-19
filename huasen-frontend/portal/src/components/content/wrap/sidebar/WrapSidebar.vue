@@ -57,7 +57,7 @@ export default {
     // 特别提醒：修改仓库地址将视为侵权
     // Special reminder: Modifying the warehouse address will be regarded as infringement
     goStorage() {
-      window.open('https://github.com/huasenjio/huasenjio-compose', '_blank');
+      //window.open('https://github.com/huasenjio/huasenjio-compose', '_blank');
     },
 
     showConnectPannel() {
