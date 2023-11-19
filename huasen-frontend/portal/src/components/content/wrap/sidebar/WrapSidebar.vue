@@ -8,18 +8,18 @@
 <template>
   <div class="wrap-sidebar">
     <ul>
-      <li v-if="showWrapSidebarSocket" class="animate__animated animate__fadeIn shadow">
-        <i class="iconfont icon-md-rocket" @click="goTop"></i>
-      </li>
+<!--      <li v-if="showWrapSidebarSocket" class="animate__animated animate__fadeIn shadow">-->
+<!--        <i class="iconfont icon-md-rocket" @click="goTop"></i>-->
+<!--      </li>-->
 <!--      <li class="shadow">-->
 <!--        <i class="iconfont icon-github" @click="goStorage"> </i>-->
 <!--      </li>-->
-      <li class="shadow">
-        <i class="iconfont icon-weixin" @mouseenter="showConnectPannel" @mouseleave="closeConnectPannel"> </i>
-      </li>
-      <li class="shadow" @click="readHelp">
-        <i class="iconfont icon-md-help-circle"></i>
-      </li>
+<!--      <li class="shadow">-->
+<!--        <i class="iconfont icon-weixin" @mouseenter="showConnectPannel" @mouseleave="closeConnectPannel"> </i>-->
+<!--      </li>-->
+<!--      <li class="shadow" @click="readHelp">-->
+<!--        <i class="iconfont icon-md-help-circle"></i>-->
+<!--      </li>-->
     </ul>
     <section v-if="showConnect" class="connect-panel animate__animated animate__fadeIn">
       <img :src="appConfig.site.serviceQRCodeUrl" />
