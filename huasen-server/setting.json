@@ -1,14 +1,14 @@
 {
   "site": {
-    "brandName": "花森",
+    "brandName": "智言AI",
     "brandUrl": "",
-    "redirectUrl": "http://huasen.cc/",
-    "guidePageName": "花森小窝",
-    "guidePageUrl": "http://huasen.cc/",
-    "footerHtml": "<a href=\"https://beian.miit.gov.cn/\">桂ICP备20001761号</a>",
+    "redirectUrl": "https://ingress.chatgtptenplus.com/",
+    "guidePageName": "智言AI",
+    "guidePageUrl": "https://ingress.chatgtptenplus.com/",
+    "footerHtml": "<a href=\"https://beian.miit.gov.cn/\">版权所有@智言AI</a>",
     "jwt": "",
     "jwtLiveTime": 604800,
-    "serviceQRCodeUrl": ""
+    "serviceQRCodeUrl": "huasen-store/img/1700405870036.png"
   },
   "theme": {
     "pure": [
@@ -39,8 +39,8 @@
   "mail": {
     "host": "smtp.qq.com",
     "port": 465,
-    "user": "932397243@qq.com",
-    "mtp": ""
+    "user": "419644560@qq.com",
+    "mtp": "pmshalyjiwvacaff"
   },
   "article": {
     "changelog": "648c79d1cdf0f0076b134525",
