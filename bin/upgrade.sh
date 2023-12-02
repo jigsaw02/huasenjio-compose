@@ -12,10 +12,10 @@ set -e
 # CentOS 7 重新加载网络配置
 # systemctl restart NetworkManager.service
 
-# 项目文件夹的名称
-projectName="huasenjio-compose"
+sh_path=$(cd $(dirname "$0") && pwd)
+
 # 项目根目录的路径
-projectPath="/root/huasenjio-compose"
+projectPath=$sh_path"/.."
 
 # 远程仓库名称
 gitStorageName="huasenjio-compose"
@@ -23,7 +23,7 @@ gitStorageName="huasenjio-compose"
 gitStoragePath="https://gitee.com/HuaSenJioJio/huasenjio-compose.git"
 
 # 缓存目录
-tempPath="/root/huasen-temp"
+tempPath=$sh_path"/../../huasen-temp"
 
 echo '1.正在重置缓存...'
 # 若没有缓存目录，则创建缓存目录
@@ -45,7 +45,9 @@ docker-compose down
 echo '4.正在备份数据文件...'
 # 开启报错继续执行
 set +e
-find "$projectPath" -mindepth 1 -depth ! -path "$projectPath/huasen-mongo/volume/*" ! -path "$projectPath/huasen-redis/data/*" ! -path "$projectPath/huasen-store/*" ! -path "$projectPath/huasen-jenkins/*" ! -path "$projectPath/huasen-server/setting.json" -delete
+find "$projectPath" -mindepth 1 -depth ! -path "$projectPath/huasen-mongo/volume/*" ! -path "$projectPath/huasen-redis/data/*" ! -path "$projectPath/huasen-store/*" ! -path "$projectPath/huasen-jenkins/*" ! -path "$projectPath/huasen-server/setting.json" ! -path "$projectPath/bin/*" -delete
+# 保留bin目录 && 删除bin目录下所有文件
+find "$projectPath/bin" -mindepth 1 -maxdepth 1 -delete
 # 开启报错中断执行
 set -e
 

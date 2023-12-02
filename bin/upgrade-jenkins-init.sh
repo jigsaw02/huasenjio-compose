@@ -1,7 +1,8 @@
 #!/bin/bash
+
+# 本脚本仅提供 jenkins 容器内部使用，请勿修改！
 # 执行出错后终端
 set -e
-
 echo "1.定义地址变量..."
 # 升级源码路径
 jenkinsCache="/huasen-jenkins-cache"
